@@ -1,0 +1,21 @@
+html{
+	height:100%;
+}
+body{
+	background: linear-gradient(to left,black,white);
+}
+h1{
+	color:blue;
+	border:2px solid black;
+	background:black;
+}
+h2{
+	color: rgb(21,25,24) ;
+	border:1px solid red;
+	background: rgb(255, 142, 0);
+}
+p{
+	color: #FF2481;
+	border:3px solid yellow;
+	background: #FFF;
+}

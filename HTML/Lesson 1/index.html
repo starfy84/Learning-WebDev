@@ -12,7 +12,7 @@
 		<h3>This one is smaller.</h3>
 		<h4>Even smaller.</h4>
 		<h5>This is really small</h5>
-		<h6>This is as small is a can get</h6>
+		<h6>This is as small is it can get</h6>
 	<!--These are paragraphs-->
 		<p>This is a paragraph style text. I can write as much as I want!</p>
 	<!--<br/> makes a line space. it's as if you've pressed "Enter"-->
@@ -24,11 +24,20 @@
 		<br/>
 		<p>Now I'm doing muliple <br/><br/><br/>line spaces!!</p>
 		<br/>
+	<!--<span> is like <div>, but it is used during text-->
+		<p>This sentence looks normal, but can be <span style="color:red;">changed</span> using css!
+	<!--<header> and <footer> work exactly like <div>-->
+		<header>
+		<p>This sentence looks like div is being used but instead, it's actually header
+		</header>
+		<footer>
+		<p>Same with this one, but this one is footer</p>
+		</footer>
 		<br/>
 		<br/>
 		<br/>
-		<h1>THINGS TO COMPLETE</h1>
-	<!--This allows the use of a list-->
+		<h1>THINGS TO COMPLETE (Lists)</h1>
+	<!--This allows the use of a list with bullet points-->
 		<ul>
 	<!--<li>Creates the bullet point for the list-->
 			<li>Practice Guitar</li>
@@ -48,5 +57,92 @@
 					<li>HTML</li>
 				</ul>
 		</ul>
+<img src="http://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/istock_000017356076small.jpg?itok=renqm4vC" alt="Practice-Makes-Perfect"/>
+			<!--This allows the use of a list with numbers-->
+		<ol>
+	<!--<li>Creates the number for the list-->
+			<li>Practice Guitar</li>
+	<!--You can make nest lists by adding another <ol>-->
+				<ol>
+					<li>Learn more chords</li>
+				</ol>
+			<li>Study for tests</li>
+				<ol>
+					<li>Math</li>
+					<li>Comp Sci</li>
+				</ol>
+			<li>Learn more WebDevelopment</li>
+				<ol>
+					<li>Java Script</li>
+					<li>CSS</li>
+					<li>HTML</li>
+				</ol>
+		</ol>
+		<h1>Tables</h1>
+		<h2>How to check for equations</h2>
+		<!--This creates a table-->
+		<table>
+		<!--<tr> adds a row to the table-->
+			<tr>
+		<!--<th> creates the heading style text for the table-->
+				<th>Left Side of Equation</th>
+				<th>Right Side of Equation</th>
+			</tr>
+			<tr>
+		<!--<td> creates regular table data-->
+				<td>3x</td>
+				<td>=27</td>
+			</tr>
+			<tr>
+				<td>=3(9)</td>
+			</tr>
+			<tr>
+				<td>=27</td>
+			</tr>
+		</table>
+		<p>Therefore LS=RS and x=9</p>
+		<h1>Forms</h1>
+		<!--This creates forms-->
+			<form>
+		<!--<div> divides the text-->
+				<div>
+		<!--This labels username to call it username-->
+					<label for="username">Username</label>
+		<!--This creates a box for user input-->
+					<input name="username" type="text"/>
+				</div>
+				<div>
+					<label for="password">Password&nbsp;</label>
+		<!--This type is a password, that means that anything the user types will be in "**********" form-->
+					<input name="password" type= "password"/>				
+				</div>
+				<div>
+					<label for="rememberMe">Remember Me?</label>
+		<!--This creates a box for the user to click so either check or uncheck-->
+					<input name="rememberMe" type="checkbox">
+				</div>
+				<div>
+					<label for="robotCheck">Are you a robot?</label>
+		<!--This outputs a box and lets the user decide for the options-->
+					<select name="robotCheck">
+						<option>Yes</option>
+						<option>No</option>
+					</select>
+				</div>
+				<div>
+		<!--Creates a button for the user to press-->
+					<button>Log In</button>
+				</div>
+			</form>
+		<h1>Links</h1>
+		<div>
+		<!--<a> defines a hyperlink and href is the location that the link will go to-->
+			<a href="p2">Secret Link</a>
+		</div>
+		<div>
+		<!--By doing target="_blank", the link will open on a new page-->
+			<a href="https://facebook.com" target="_blank">Facebook</a>
+		</div>
+
 	</body>
 </html>
