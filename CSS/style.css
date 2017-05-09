@@ -1,3 +1,9 @@
+/*CSS RESET
+{
+	margin:0;
+	padding:0;
+}
+*/
 html{
 	/*Sets page to 100%*/
 	height:100%;
@@ -27,6 +33,11 @@ h2{
 	border:1px solid red;
 	/*Sets background using rbg values*/
 	background: rgb(255, 142, 0);
+	/*Puts shadow on text*/
+	text-shadow:2px 2px green;
+	/*Makes <h2> limited to the text it has instead of taking up the whole page*/
+	display:inline-block;
+	margin:0;
 }
 p{
 	/*Sets colour using hexadecimal values*/
@@ -43,4 +54,42 @@ li{
 	float:left;
 	/*Spaces list by 10px*/
 	margin-right: 10px;
+}
+div{
+	/*Makes width of all <div> 400px*/
+	width:800px;
+	/*Adds margin around border*/
+	margin:30px;
+	/*Puts blue border*/
+	border:20px solid blue;
+	/*Rounds edges*/
+	border-radius:20px;
+	/*Puts shadow downwards*/
+	box-shadow:5px 5px black;
+	/*Essentially empty space*/
+	padding:10px;
+	
+}
+/*Targets all tags with colourRed class*/
+.colourRed{
+	color:red;
+}
+/*Targets all tags with underline class*/
+.underline{
+/*underlines text*/
+	text-decoration:underline black;
+}
+/*Targets tag with enlarge id*/
+#enlarge{
+	/*Increases font*/
+	font-size:80px;
+}
+/*Targets all div and p tags*/
+div,p{
+	margin: 0 auto;
+	text-align:center;
+}
+/*Targets h3 tags inside div tags*/
+div h3{
+	color:blue;
 }
